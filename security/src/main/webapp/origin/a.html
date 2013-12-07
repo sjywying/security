@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="js/a.js" ></script>
+<!-- 对于b.js来说localhost:8080/s 就是他的源 -->
+<script type="text/javascript" src="http://localhost:8080/sa/origin/js/b.js" ></script>
+<title>Insert title here</title>
+</head>
+<body onload="onloadAfter();">
+aaa
+<span id='span111'>span text</span>
+
+<!-- 此处的js没有执行 -->
+<img alt="xxx" src="http://localhost:8080/sa/origin/js/c.js">
+</body>
+</html>
